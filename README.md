@@ -4,9 +4,9 @@ Steps:
 3. Run stopLightsControl.py in dedicated terminal
 
 Known Issues:
-1. Car can momentarily stop at a green light.
+1. Car can momentarily stop at a green light, due to delay in simulation processing. Tuning average pixel threshold could help.
 2. After stopping at a red light, the car will momentarily leave the road when resuming following green light detection.
-3. Car can momentarily leave the road.
+3. Car can momentarily leave the road due to steering controller.
 
 YouTube Link:
 https://youtu.be/DL6dYxBm7Ww
