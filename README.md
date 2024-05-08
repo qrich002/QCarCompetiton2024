@@ -1,7 +1,7 @@
 Steps:
 1. Run SetupCompetition.py
 2. Run Traffic_Lights_Competition.py in dedicated terminal (this file should be running continuously in the background)
-3. Run stopSigns_vehicle_control.py in dedicated terminal
+3. Run stopLightsControl.py in dedicated terminal
 
 Known Issues:
 1. Car can momentarily stop at a green light.
