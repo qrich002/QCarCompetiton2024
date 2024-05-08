@@ -65,9 +65,9 @@ else:
 
 #if not IS_PHYSICAL_QCAR:
 #import Setup_Competition
-import Setup_Competition
-Setup_Competition.terminate()
-Setup_Competition.setup(initialPosition=[-1.205,-0.83,0.005], initialOrientation=[0,0,-44.7])
+#import Setup_Competition
+#Setup_Competition.terminate()
+#Setup_Competition.setup(initialPosition=[-1.205,-0.83,0.005], initialOrientation=[0,0,-44.7])
 
 # Used to enable safe keyboard triggered shutdown
 global KILL_THREAD
